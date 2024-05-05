@@ -446,3 +446,78 @@ span.psw {
 .companies-list p {
     text-align: left;
 }
+
+.image-container {
+    background-image: url("images/9u9ybyge.bmp");
+    /* The image used - important! */
+    background-size: cover;
+    position: relative;
+    object-fit: fill;
+    /* Needed to position the cutout text in the middle of the image */
+    height: 750px;
+    /* Some height */
+}
+
+.text {
+    background-color: white;
+    color: black;
+    font-size: 9vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 280px;
+    text-align: center;
+    float: left;
+    margin-right: 29px;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
