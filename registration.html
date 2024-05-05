@@ -20,6 +20,191 @@
         </div>
     </div>
 
-    <footer>BlackHole Exploration All Rights Reserved 2024</footer>
+
+    <!-- <table class="membership-table">
+        <tr>
+            <th>Prices and membership options</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Platinum Member - full access to all events for each
+                day as well as any formal dinners </td>
+            <td>£350</td>
+        </tr>
+        <tr>
+            <td>Gold Membership - full access to all events on each
+                day</td>
+            <td>£250</td>
+        </tr>
+        <tr>
+            <td>Silver Membership - full access to all events over two
+                days</td>
+            <td>£150</td>
+        </tr>
+        <tr>
+            <td>Day Pass - access to any event over a single day</td>
+            <td>£100</td>
+        </tr>
+        <td>Dinner Ticket - access to the formal evening dinner</td>
+        <td>£125</td>
+        <tr>
+            <td>Single Session Pass access to any single public
+                session or workshop</td>
+            <td>£35 per session</td>
+        </tr>
+    </table> -->
+
+
+    <div class="mem-columns">
+        <ul class="mem-price">
+            <li class="mem-header">Platinum Member</li>
+            <li class="mem-grey">£350</li>
+            <li>Full Access</li>
+            <li>to all events for each
+                day </li>
+            <li>As well as any formal dinners</li>
+            <li class="mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+    <div class="mem-columns">
+        <ul class="mem-price">
+            <li class="mem-header">Gold Membership</li>
+            <li class="mem-grey">£250</li>
+            <li>Full Access</li>
+            <li>to all events for each
+                day </li>
+            <li style="height: 60px;"></li>
+            <li class="mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+    <div class="mem-columns">
+        <ul class="mem-price">
+            <li class="mem-header">Silver Membership</li>
+            <li class="mem-grey">£150</li>
+            <li>Full Access</li>
+            <li>to all events over two days </li>
+            <li style="height: 60px;"></li>
+            <li class="mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+    <div style="margin" class="mem-columns">
+        <ul class="mem-price">
+            <li class="mem-header">Day Pass</li>
+            <li class="mem-grey">£100</li>
+            <li>access to any event over a single day</li>
+            <li></li>
+            <li style="height: 59px;"></li>
+            <li class="mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+    <div style="margin" class="mem-columns">
+        <ul class="mem-price">
+            <li class="mem-header">Dinner Ticket</li>
+            <li class="mem-grey">£125</li>
+            <li>Access to the formal evening dinner</li>
+            <li style="height: 59px;"></li>
+            <li></li>
+            <li class=" mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+    <div class="mem-columns">
+        <ul class="mem-price custom-mem-price">
+            <li class="mem-header"> Single Session Pass</li>
+            <li class="mem-grey">£35/p</li>
+            <li>access to any single public
+                session or workshop</li>
+            <li></li>
+            <li style="height: 59px;"></li>
+            <li class="mem-grey"><a href="#" class="mem-button">Sign Up</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="New York">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="NY">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+                    <input type="submit" value="Continue to checkout" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="col-25">
+            <div class="container">
+                <h4>Cart
+                    <span class="price" style="color:black">
+                        <i class="fa fa-shopping-cart"></i>
+                        <b>4</b>
+                    </span>
+                </h4>
+                <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+                <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+                <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+                <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="mem-footer">BlackHole Exploration All Rights Reserved 2024</footer>
 
 </html>
